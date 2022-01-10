@@ -13,7 +13,7 @@ if [ "$(whoami)" != 'root' ];
 			fi
 	else
 		apt install python3 git
-		chmod +x SpeedTest.py
+		chmod +x ggt.py
 		clear
 		echo 'Программа установлена!'
 		echo 'Использовать как бинарный файл?(Y/n)'
